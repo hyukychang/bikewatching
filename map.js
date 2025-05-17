@@ -1,10 +1,9 @@
 import mapboxgl from "https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/+esm";
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
-import { API_KEY } from "./env.js";
-
 // Set your Mapbox access token here
-mapboxgl.accessToken = API_KEY;
+mapboxgl.accessToken =
+  "pk.eyJ1Ijoic2VjMDQwIiwiYSI6ImNtYXI5M3I2NzA5Z2cyaW9lcHFoMHFlZnMifQ.G6Pz0EWRd9SOtsvWqgYzFw";
 
 const map = new mapboxgl.Map({
   container: "map", // ID of the div where the map will render
